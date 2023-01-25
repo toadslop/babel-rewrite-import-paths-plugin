@@ -1,0 +1,14 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@babel/helper-plugin-utils': ^7.20.2
+
+dependencies:
+  '@babel/helper-plugin-utils': 7.20.2
+
+packages:
+
+  /@babel/helper-plugin-utils/7.20.2:
+    resolution: {integrity: sha512-8RvlJG2mj4huQ4pZ+rU9lqKi9ZKiRmuvGuM2HlWmkmgOhbs6zEAw6IEiJ5cQqGbDzGZOhwuOQNtZMi/ENLjZoQ==}
+    engines: {node: '>=6.9.0'}
+    dev: false

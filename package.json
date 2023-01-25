@@ -1,0 +1,16 @@
+{
+  "name": "rewrite-import-paths-plugin",
+  "version": "0.1.0",
+  "description": "Allows you to rewrite import paths for specific modules.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.20.2"
+  }
+}
