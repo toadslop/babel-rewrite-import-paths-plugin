@@ -5,8 +5,7 @@ This Babel plugin is useful when the host environment where your script will run
 Let's use React as an example. Say that you will deploy your script to a webside that has it's own version of React available from it's server at the url
 ```https://acme.com/vendors/react```. In order to use this, you'd need to write the following code:
 
-js
-```
+```js
 import React from "/vendors/react";
 ```
 
