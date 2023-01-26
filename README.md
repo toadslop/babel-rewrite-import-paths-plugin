@@ -15,15 +15,15 @@ allowing you to write js`import React from 'react';` in your codebase but have t
 
 ## Setup
 
-bash
-```
+
+```bash
 npm install @toadslop/babel-rewrite-import-paths-plugin
 ```
 
 Update your Babel config as shown:
 
-json
-```
+
+```json
 // babel.config.json
 
 {
@@ -59,16 +59,16 @@ json
 
 Imagine we have this simple JavaScript file in our project:
 
-js
-```
+
+```js
 import React from "react";
 import something from "otherPackage"
 ```
 
 Babel would transpile this as follows:
 
-js
-```
+
+```js
 import React from "vendors/React";
 import something from "otherPackage";
 ```
